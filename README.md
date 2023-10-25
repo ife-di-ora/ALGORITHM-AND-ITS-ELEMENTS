@@ -1,8 +1,8 @@
 # ALGORITHM-AND-ITS-ELEMENTS
 
-This Algorithm reads a sentence, which ends with a point.  To obtain the lenght of the sentencce , It takes an input sentence from the user, then loops through all characters  the input until it gets to a full stop. 
+This Algorithm reads a sentence, which ends with a point.  It takes an input sentence from the user, then obtains the length of the sentencce. 
 
-Then again, it loops through all the characters, checking for spaces, then vowels. 
+It then loops through all the characters, checking for spaces, then vowels. 
 
 it uses the number of spaces found to get the number of words. 
 
