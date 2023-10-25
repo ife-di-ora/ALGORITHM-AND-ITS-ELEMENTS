@@ -2,20 +2,15 @@ ALGORITHM GMC_ALGO_ASSG //start the algorithm
 
 // declare variables to be used
 VAR
-    char_counter, word_counter, vowel_counter, i, j, space_counter : INTEGER :=0
+    char_counter, word_counter, vowel_counter, i, space_counter : INTEGER :=0
     sentence: STRING
 
     // begin execution
 BEGIN
     Read(sentence)  // receive sentence
 
-// count all characters in the sentence
-WHILE (sentence[j] not ".") DO
-    j := j + 1;
-END_WHILE
-
 // loop through all letters in the sentence 
-WHILE (i < j) DO
+WHILE (i < sentence.length) DO
     
     // check if indexed character is a space and increment space_counter variable if it is a space, else increment char_counter
     IF (sentence[i]) THEN
