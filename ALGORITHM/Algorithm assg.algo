@@ -13,7 +13,7 @@ BEGIN
 WHILE (i < sentence.length) DO
     
     // check if indexed character is a space and increment space_counter variable if it is a space, else increment char_counter
-    IF (sentence[i]) THEN
+    IF (sentence[i] = " ") THEN
         space_counter := space_counter + 1
     ELSE 
         char_counter := char_counter + 1
